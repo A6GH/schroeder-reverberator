@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/CrossCore Embedded Studio 2.9.1/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Jan 31 14:20:15 2020
+'>
+<MSG id='0320D100' mid='li3201' type='Informational' suppressed=''>
+<TEXT><![CDATA[Successfully eliminated 1765 bytes in processor 'p0'
+]]></TEXT>
+<EXTENDED_INFO><![CDATA[Eliminated object (___eh_gdt, ___eh_gdt+0x1) of size 5 bytes from 'app_startup.doj(.gdt)'
+Eliminated object (_Left_Channel, _Left_Channel+0x1) of size 5 bytes from 'src\SPORT1_ISR_process_samples_.doj(seg_dmda)'
+Eliminated object (_Right_Channel, _Right_Channel+0x1) of size 5 bytes from 'src\SPORT1_ISR_process_samples_.doj(seg_dmda)'
+Eliminated object (_spiFlag, _spiFlag+0x1) of size 5 bytes from 'src\init1939viaSPI.doj(seg_dmda)'
+Eliminated object (_adi_int_ClearPending, ._adi_int_ClearPending.end) of size 14 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (_adi_int_UninstallHandler, ._adi_int_UninstallHandler.end) of size 66 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (_adi_int_EnableInt, ._adi_int_EnableInt.end) of size 66 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (__adi_osal_InitInterrupts, .__adi_osal_InitInterrupts.end) of size 14 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_MemAlloc, .__adi_osal_MemAlloc.end) of size 94 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_MemFree, .__adi_osal_MemFree.end) of size 34 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_DeactivateHandler, ._adi_osal_DeactivateHandler.end) of size 34 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_UninstallHandler, ._adi_osal_UninstallHandler.end) of size 44 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (__heap_free, .__heap_free.end) of size 30 bytes from 'libc.dlb[heap_free.doj](seg_swco)'
+Eliminated object (_adi_osal_EnterCriticalRegion, ._adi_osal_EnterCriticalRegion.end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_ExitCriticalRegion, ._adi_osal_ExitCriticalRegion.end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (__adi_osal_gHandlerTableSize, __adi_osal_gHandlerTableSize+0x1) of size 5 bytes from 'libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)'
+Eliminated object (_adi_rtl_deactivate_dispatched_handler, ._adi_rtl_deactivate_dispatched_handler.end) of size 108 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (.__clear_imask, .__clear_imask.end) of size 320 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (.__clear_lirptl, .__clear_lirptl.end) of size 100 bytes from 'libc.dlb[dispatched_handler_deactivate.doj](seg_pmco)'
+Eliminated object (_adi_rtl_unregister_dispatched_handler, ._adi_rtl_unregister_dispatched_handler.end) of size 14 bytes from 'libc.dlb[dispatched_handler_unregister.doj](seg_pmco)'
+Eliminated object (__fflush_all, .__fflush_all.end) of size 104 bytes from 'libio.dlb[fflush_any.doj](seg_swco)'
+Eliminated object (_fflush, ._fflush.end) of size 56 bytes from 'libio.dlb[fflush_any.doj](seg_swco)'
+Eliminated object (_free, ._free.end) of size 168 bytes from 'libc.dlb[free.doj](seg_swco)'
+Eliminated object (_adi_rtl_nested_int_disable_count, _adi_rtl_nested_int_disable_count+0x1) of size 5 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_dmda)'
+Eliminated object (_adi_rtl_interrupt_state, _adi_rtl_interrupt_state+0x1) of size 5 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_dmda)'
+Eliminated object (_adi_rtl_disable_interrupts, ._adi_rtl_disable_interrupts.end) of size 66 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_swco)'
+Eliminated object (_adi_rtl_reenable_interrupts, ._adi_rtl_reenable_interrupts.end) of size 58 bytes from 'libc.dlb[rtl_disable_interrupts.doj](seg_swco)'
+Eliminated object (___find_block_to_free, .___find_block_to_free.end) of size 288 bytes from 'libc.dlb[heap_find_block.doj](seg_swco)'
+]]></EXTENDED_INFO>
+</MSG>
+<MSG id='0320CD80' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    src\SPORT1_ISR_process_samples_.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[fatal_error.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='0320D2C0' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code_prio1']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[fatal_error.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='0320C3E0' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code_prio3']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    src\SPORT1_ISR_process_samples_.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[fatal_error.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='0320D560' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    src\SPORT1_ISR_process_samples_.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[float_divide.doj](seg_pmco)
+    libcc.dlb[strlen.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate.doj](seg_pmco)
+    libc.dlb[dispatched_handler_register.doj](seg_pmco)
+    libc.dlb[fatal_error.doj](seg_pmco)
+    libc.dlb[int_dispatcher_214xx.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[powf.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+</DOCUMENT>
